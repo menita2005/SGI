@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WALL_INVENTARY</title>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+<body>
+   <div class="title" ><h1><font size="20" color="white">WALL_INVENTARY</font></h1></div>
+    <div class="content"><h2>
+        <button class="btn"><a href="estadisticas.html">Estadisticas</a> </button>
+        <button class="btn"><a href="proveedores.html">Añadir Proveedor</a> </button>
+        <button class="btn"><a href="productos.html">Añadir Producto</a></button>
+        <button class="btn"><a href="ventas.html">Ventas</a></h2></button>
+    </div>
+    <div class="container">
+        <div class="heading">Nuevo Producto</div>
+        <form action="index2.php" method="POST">
+            <div class="card-details">
+                <div class="card-box">
+                    <span class="details">Nombre del producto</span>
+                    <input type="text" name="Nombrepro" placeholder="Nombre del producto">
+                </div>
+                <div class="card-box">
+                    <span class="details">Descripción:</span>
+                    <textarea name="Descripción" placeholder="Descripción"></textarea>
+                </div>
+                <div class="card-box">
+                    <span class="details">Precio:</span>
+                    <input type="number" name="precio" placeholder="Precio">
+                </div>
+                
+            </div>
+            <div class="button">
+                <input type="submit" value="SUBIR">
+            </div>
+        </form>
+    </div>
+   
+   
+    
+</body>
+</html>

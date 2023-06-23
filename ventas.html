@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WALL_INVENTARY</title>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    
+</head>
+<body>
+    <div class="title" ><h1><font size="20" color="white">WALL_INVENTARY</font></h1></div>
+    <div class="content"><h2>
+        <button class="btn"><a href="estadisticas.html">Estadisticas</a> </button>
+        <button class="btn"><a href="proveedores.html">Añadir Proveedor</a> </button>
+        <button class="btn"><a href="productos.html">Añadir Producto</a></button>
+        <button class="btn"><a href="ventas.html">Ventas</a></h2></button>
+    </div>
+    <div class="container">
+            <div class="heading">Nueva Venta</div>
+    <form>
+        <div class="card-details">
+            <div class="card-box">
+		      <label for="producto">Producto:</label>
+		        <select id="producto" name="producto">
+			    <option value="producto_1">Producto 1</option>
+			    <option value="producto_2">Producto 2</option>
+			    <option value="producto_3">Producto 3</option>
+	    	</select><br>
+            </div>
+        
+            <div class="card-box">
+                
+		        <span class="details"><label for="proveedor">Proveedor:</label></span>
+		         <select id="proveedor" name="proveedor">
+			        <option value="proveedor_1">Proveedor 1</option>
+			        <option value="proveedor_2">Proveedor 2</option>
+			    <option value="proveedor_3">Proveedor 3</option>
+		    </select><br>
+            </div>
+            <div class="card-box">
+                <span class="details"><label for="cantidad">Cantidad:</label></span>
+		       <input type="number" id="cantidad" name="cantidad"><br>
+            </div>
+            <div class="card-box">
+                <span class="details"><label for="precio">Precio:</label></span>
+		<input type="number" id="precio" name="precio"><br>
+		</div>
+        </div>
+        <div class="button">
+		    <input type="submit" value="SUBIR">
+        </div>
+	</form>
+</div>
+   
+    
+</body>
+</html>
