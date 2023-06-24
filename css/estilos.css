@@ -21,7 +21,7 @@ body{
     gap: 40px;
 }
 .btn {
-    padding: 0.3em 1em;
+    padding: 0.3em 4.5em;
     background: none;
     border: 2px solid #fff;
     font-size: 25px;
@@ -30,15 +30,15 @@ body{
     position: relative;
     overflow: hidden;
     transition: all 0.3s;
-    border-radius: 12px;
+    
     background-color: #ffffff;
     font-weight:bolder;
-    box-shadow: 0 2px 0 2px #000000;
+    box-shadow: 0 2px 0 2px #ffffff;
 }
 .btn:before {
     content: "";
     position: absolute;
-    width: 100px;
+    width: 120px;
     height: 120px;
     background-color: #fff;
     top: 50%;
@@ -58,12 +58,12 @@ body{
     transform: scale(0.9);
 }
 .title{
-    align-items: center;
-    width: 700px;
+    
+    width: 100%;
     height: 120px;
     
     padding: 25px 30px;
-    border-radius: 25px;
+    
     background:#2e2e2efa;
 }
 h1{
@@ -74,17 +74,17 @@ h1{
 h2 {
     position: absolute;
     align-items:center;
-    margin-top: 130px;
+    margin-top: 122px;
 }
 .container{
     position: absolute;
-    margin-top: 200px;
-    margin-left: 400px;
+    margin-top: 225px;
+    margin-left: 750px;
     max-width: 600px;
     height: 400px;
     width: 100%;
     padding: 25px 30px;
-    border-radius: 25px;
+    
     background: #0000001e;
 }
 .container .heading{
@@ -104,6 +104,42 @@ h2 {
     width: 100%;
     background: #000000
 }
+
+.container form .card-details{
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;   
+}
+.container2{
+    position: absolute;
+    margin-top: 225px;
+    margin-left: 50px;
+    max-width: 600px;
+    height: 400px;
+    width: 100%;
+    padding: 25px 30px;
+    
+    background: #0000001e;
+}
+.container2 .heading{
+    font-size: 25px;
+    font-weight: 700;
+    position: relative;
+    text-align: center;
+    padding: 0 0 20px 0;
+
+}
+.container2 .heading::before{
+    content: '';
+    position: absolute;
+    height: 3px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #000000
+}
+
 .container form .card-details{
     margin-top: 25px;
     display: flex;
@@ -123,7 +159,7 @@ form .card-details .card-box{
     height: 45px;
     width: 100%;
     outline: none;
-    border-radius: 5px;
+    
     border: 1px solid #ccc;
     padding-left: 15px;
     font-size: 16px;
@@ -158,7 +194,7 @@ form .button input{
     border: none;
     font-size: 18px;
     font-weight: 500;
-    border-radius: 5px;
+    
     letter-spacing: 1px;
     background: linear-gradient(135deg, #505050, #000000ca);
 }
@@ -173,7 +209,7 @@ form select{
     border: none;
     font-size: 18px;
     font-weight: 500;
-    border-radius: 5px;
+    
     letter-spacing: 1px;
     background-color: azure;
 }
@@ -187,12 +223,12 @@ form .button option{
     border: none;
     font-size: 18px;
     font-weight: 500;
-    border-radius: 5px;
+    
     letter-spacing: 1px;
     background: linear-gradient(135deg, #fffd7e, #78ffc0ca);
 }
 form .button input:hover{
-    background: #000000;
+    background: #ffffff;
 }
 
 
